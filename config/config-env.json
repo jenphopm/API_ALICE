@@ -1,0 +1,16 @@
+{
+    "default": {
+      "config_id": "default",
+      "app_name": "api alice",
+      "app_desc": "The Alice",
+      "json_indentation": 4,
+      "secret":"HelloWorld"
+    },
+    "development": {
+        "config_id": "development",
+        "protocol": "http",
+        "host": "localhost",
+        "node_port": 8080,
+        "secretAlice": "ProjectAlice"
+    }
+}
